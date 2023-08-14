@@ -48,15 +48,17 @@
 
 // RESPONSE:
 {
-    "id": 2,
-    "name": "admin",
-    "username": "admin2",
-    "password": "12345678",
-    "email": "admin2@saudi.sa",
-    "role": "admin",
-    "age": 26
-}
-```
+    "message": "the user have been created.",
+    "data": {
+        "id": 1,
+        "name": "admin",
+        "username": "admin2",
+        "password": "12345678",
+        "email": "admin2@saudi.sa",
+        "role": "admin",
+        "age": 26
+    }
+}```
 
 3. update user
 ```js
