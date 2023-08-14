@@ -32,7 +32,7 @@ public class UsersController {
 
         User savedUser = userService.createUser(user);
 
-        return ResponseEntity.ok(savedUser);
+        return ResponseEntity.ok((new ApiResponseWithData<>("the user have been created.", savedUser)));
     }
 
     @PutMapping("/update/{id}")
